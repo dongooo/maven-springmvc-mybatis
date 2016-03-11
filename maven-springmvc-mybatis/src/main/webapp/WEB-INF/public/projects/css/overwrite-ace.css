@@ -1,0 +1,62 @@
+.sidebar.compact .sidebar-shortcuts {
+	max-height: 82px;
+}
+
+.fa-sm {
+	font-size: 12px !important;
+}
+
+.fa-2em {
+	font-size: 2em;
+}
+
+.fa-3em {
+	font-size: 3em;
+}
+
+.widget-body .table thead:first-child tr {
+	background: #E5E5E5;
+}
+
+.btn.btn-white {
+	border: 5px solid #FFF;
+}
+
+.form-group {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.form-actions {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 10px 20px 10px;
+}
+
+.pagination {
+	margin-top: -5px;
+	margin-right: 5px;
+	margin-bottom: -10px;
+	margin-left: 0px;
+	padding-left: 5px;
+}
+
+.form-control::-moz-placeholder {
+	color: #E1DEDE;
+}
+
+/*开关样式改成是否文字*/
+input[type=checkbox].ace.ace-switch.ace-switch-5 + .lbl::before {
+  content: "是\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0否";
+}
+
+/*顶部导航栏左右padding去掉*/
+.navbar-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*居右*/
+.text-right {
+	text-align:right;
+}
